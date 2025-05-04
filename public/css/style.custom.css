@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'password' ;
+    font-display: block; 
+    src: url('https://github.com/RouninMedia/password-font/blob/main/password.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://github.com/RouninMedia/password-font/blob/main/password.woff') format('woff'); /* Pretty Modern Browsers */
+  }
+
+input[type="password"] {
+    -webkit-text-security: square; /* Ou 'circle' ou 'square' */
+    text-align: center;
+    line-height: 30px;  
+    font-family: password, sans-serif;
+} 
+
+.az-card-signin { 
+    border-top: 3px solid #3366ff; 
+    border-bottom: 8px solid #3366ff 
+}
